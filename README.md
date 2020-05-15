@@ -3,6 +3,7 @@
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
+
 {https://github.com/z-bone/Zach_Smith_ELK_Stack_Project/blob/master/Diagram/Annotation%202020-05-15%20132715.png}
 
 
