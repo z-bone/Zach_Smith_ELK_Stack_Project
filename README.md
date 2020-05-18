@@ -30,8 +30,9 @@ What aspect of security do load balancers protect? **Load balancers can defend o
 What is the advantage of a jump box? **Before running any tasks, admins first connect to a jumpbox. It can also act as an origination point to access other environments securely through SSH.**
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **files** and system **logs**.
-- _TODO: What does Filebeat watch for?_
-- _TODO: What does Metricbeat record?_
+What does Filebeat watch for? **Filebeat monitors the log files and anything else specified, collects log events, and sends them either to Elasticsearch or Logstash.**
+
+What does Metricbeat record? **Metricbeat monitors the system and services, and sends to the output specified(Elasticsearch).**
 
 The configuration details of each machine may be found below.
 
@@ -46,18 +47,18 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the JumpBox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-73.195.181.44
+**73.195.181.44**
 
-Machines within the network can only be accessed by SSH.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
-
+Machines within the network can only be accessed by **SSH**.
+- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?
+**My jumpbox allowed access to my ELK VM through SSH to 10.0.0.4.**
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
-|          |                     |                      |
-|          |                     |                      |
+|Jump Box  |Yes                  |    73.195.181.44     |
+|DVWA      |No                   |     10.0.0.5         |
+|Elk Server|Yes                  |73.195.181.44         |
 
 ### Elk Configuration
 
