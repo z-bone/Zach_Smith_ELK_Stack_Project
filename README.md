@@ -58,7 +58,7 @@ A summary of the access policies in place can be found in the table below.
 |----------|---------------------|----------------------|
 |Jump Box  |Yes                  |    73.195.181.44     |
 |DVWA      |No                   |     10.0.0.5         |
-|Elk Server|Yes                  |73.195.181.44/10.0.05 |
+|Elk Server|Yes                  |73.195.181.44/10.0.0.5|
 
 ### Elk Configuration
 
