@@ -7,7 +7,7 @@ The files in this repository were used to configure the network depicted below.
 [Diagram](https://github.com/z-bone/Zach_Smith_ELK_Stack_Project/blob/master/Diagram/Annotation%202020-05-15%20132715.png)
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat playbook.txt file may be used to install only certain pieces of it, such as Filebeat.
 
 [Playbook & Configuration Files](https://github.com/z-bone/Zach_Smith_ELK_Stack_Project/tree/master/Ansible)
 
@@ -27,7 +27,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 What aspect of security do load balancers protect? **Load balancers can defend organizations against DDoS attacks, effectively spreads the resources throughout the network, and the Web Application Firewall(WAF) inside the load balancer is essentially protecting the website by updating the rules daily.**
 
-What is the advantage of a jump box? **Before running any tasks, admins first connect to a jumpbox. It can also act as an origination point to access other environments securely.**
+What is the advantage of a jump box? **Before running any tasks, admins first connect to a jumpbox. It can also act as an origination point to access other environments securely through SSH.**
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 - _TODO: What does Filebeat watch for?_
