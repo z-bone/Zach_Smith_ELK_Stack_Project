@@ -26,6 +26,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 What aspect of security do load balancers protect? **Load balancers can defend organizations against DDoS attacks, effectively spreads the resources throughout the network, and the Web Application Firewall(WAF) inside the load balancer is essentially protecting the website by updating the rules daily.**
+
 What is the advantage of a jump box? **Before running any tasks, admins first connect to a jumpbox. It can also act as an origination point to access other environments securely.**
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
