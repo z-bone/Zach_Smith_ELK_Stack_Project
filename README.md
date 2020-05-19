@@ -72,6 +72,7 @@ The playbook implements the following tasks:
 - **Run the playbook with ansible-playbook following with the path of the .yml file you just created.**
 - **Ensure the server is up by running the command sudo docker ps.**
 - **Add your real IP to a Network Security Group allowing it to connect to the ELK server.**
+
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 [Elk Server Data](https://github.com/z-bone/Zach_Smith_ELK_Stack_Project/blob/master/Images/Annotation%202020-05-11%20194625.png)
