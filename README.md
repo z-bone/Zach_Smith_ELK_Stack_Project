@@ -65,19 +65,21 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it saves a whole lot of time.
 What is the main advantage of automating configuration with Ansible?
-
+**Ansible is simple to use, free, and efiicient. It is used to install commands in a file to a VM.**
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
-
+- **Add ELK IP to filebeat-configuration.yml**
+- **Create a playbook including the install of docker.io, python-pip, docker container sebp/elk, all able to be connected throught the ports 5601:5601, 9200:9200, and 5044:5044.**
+- **Run the playbook with ansible-playbook following with the path of the .yml file you just created.**
+- **Ensure the server is up by running the command sudo docker ps.**
+- **Add your real IP to a Network Security Group allowing it to connect to the ELK server.**
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 [Elk Server Data](https://github.com/z-bone/Zach_Smith_ELK_Stack_Project/blob/master/Images/Annotation%202020-05-11%20194625.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- List the IP addresses of the machines you are monitoring
+**10.0.0.6**
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
@@ -89,9 +91,9 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Copy the **source** file to **the destination**.
+- Update the **configuration** file to include **the IP of your ELK server.**
+- Run the playbook, and navigate to **the ELK instance** to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
