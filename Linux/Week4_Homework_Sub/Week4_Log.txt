@@ -1,0 +1,45 @@
+-rw------- 1 root shadow 1940 Mar 15 23:38 etc/shadow
+-rw-r--r-- 1 root root 1106 Mar 15 23:38 etc/group
+-rw-r--r-- 1 root root 2726 Mar 15 23:38 etc/passwd
+uid=1001(sam) gid=1007 groups=1007,1006(engineers)
+uid=1002(joe) gid=1007 groups=1007,1006(engineers)
+uid=1003(amy) gid=1007 groups=1007,1006(engineers)
+uid=1004(sara) gid=1007 groups=1007,1006(engineers)
+uid=1005(admin) gid=1005(admin) groups=1005(admin)
+Last password change					: Mar 11, 2020
+Password expires					: Jun 09, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+Last password change					: Mar 11, 2020
+Password expires					: Jun 09, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+Last password change					: Mar 11, 2020
+Password expires					: Jun 09, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+Last password change					: Mar 11, 2020
+Password expires					: Jun 09, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+Last password change					: Mar 11, 2020
+Password expires					: Jun 09, 2020
+Password inactive					: never
+Account expires						: never
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 90
+Number of days of warning before password expires	: 7
+engineers:x:1006:sam,joe,amy,sara
+drwxrwsrwt 2 root engineers 4096 Mar 14 15:48 /home/engineers/

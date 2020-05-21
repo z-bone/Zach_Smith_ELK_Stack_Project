@@ -1,0 +1,4 @@
+#!/bin/bash
+grep -ir "-" 0310_win_loss_player_data >> ../../Dealers_working_during_losses
+awk -F , '{print $1,$2,$3,$4}' ../../Dealer_Analysis/Dealer_Schedules_0310/0310_Dealer_schedule >> ../../Dealers_working_during_losses
+
