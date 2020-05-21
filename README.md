@@ -88,7 +88,7 @@ Specify which Beats you successfully installed:
 
 These Beats allow us to collect the following information from each machine:
 -In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
-- **Filebeat will monitor the log files and other locations that are chosen. Both will be forwarded for indexing (e.g., Elasticsearch). 
+- **Filebeat will monitor the log files and other locations that are chosen. Both will be forwarded for indexing (e.g., Elasticsearch).** 
 - **Metricbeat collects the metrics of the server for things like memory and the use of the CPU.**
 
 ### Using the Playbook
